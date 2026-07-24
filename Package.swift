@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationUnityAdsAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/unityads-adapter/AppLovinMediationUnityAdsAdapter-4.19.0.0.zip",
-            checksum: "8f22ef200a10cb4cae5ed354f67a4185287202158f21946c019616b70eddd0bb"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/unityads-adapter/AppLovinMediationUnityAdsAdapter-4.19.0.1.zip",
+            checksum: "7b9697bb4cea09012290cc84585cdbec731fc9894790c6d57c9759dad7c5fb79"
         )
     ]
 )
