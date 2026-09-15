@@ -14,7 +14,7 @@ let package = Package(
     ],
     dependencies: [
         .package(url: "https://github.com/AppLovin/AppLovin-MAX-Swift-Package.git", from: "13.0.0"),
-        .package(url: "https://github.com/Unity-Technologies/Unity-Ads-Swift-Package.git", exact: "4.20.0")
+        .package(url: "https://github.com/Unity-Technologies/Unity-Ads-Swift-Package.git", exact: "4.20.1")
     ],
     targets: [
         .target(
@@ -28,8 +28,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "AppLovinMediationUnityAdsAdapter",
-            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/unityads-adapter/AppLovinMediationUnityAdsAdapter-4.20.0.1.zip",
-            checksum: "d70e443187f1820ec56a35edefbcc4da7ba2cb95d89aa71041cc81c1d5a5c3a1"
+            url: "https://artifacts.applovin.com/ios/com/applovin/mediation/unityads-adapter/AppLovinMediationUnityAdsAdapter-4.20.1.0.zip",
+            checksum: "c7126b2b6a8a2ef6fe92c3cf1ae6c483c3719e31a0baf3f4355428591f3dbd0e"
         )
     ]
 )
